@@ -18,7 +18,7 @@ public class AddressBookMain {
         System.out.println("how many Address Book are creating");
         int numberOfAddressBook = scanner.nextInt();
         for (int i = 1; i <= numberOfAddressBook; i++) {
-            System.out.println("Enter "+i+" the Address Book Name");
+            System.out.println("Enter " + i + " the Address Book Name");
             String addressBookName = scanner.next();
             AddressBook addressBook = new AddressBook();
             addressBook.setAddressBookName(addressBookName);

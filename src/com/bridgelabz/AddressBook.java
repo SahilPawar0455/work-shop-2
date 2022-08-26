@@ -19,7 +19,7 @@ public class AddressBook {
     @Override
     public String toString() {
         return "AddressBook{" +
-                "addressBookName='" + addressBookName  +
+                "addressBookName='" + addressBookName +
                 ", contactArrayList=" + contactArrayList + '\'' +
                 '}';
     }
